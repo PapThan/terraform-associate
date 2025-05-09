@@ -1,2 +1,4 @@
 vm_provision/.terraform*
 terraform.tfstate*
+prov_github_repo/.terraform*
+prov_github_repo/terraform*
