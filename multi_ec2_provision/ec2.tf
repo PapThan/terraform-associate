@@ -3,5 +3,8 @@ resource "aws_instance" "myec2" {
   instance_type = "t2.micro"
 
   count = 3
+    tags = {
+        Name = "MyEC2Instance-${count.index + 1}"
+    }
   
 }
